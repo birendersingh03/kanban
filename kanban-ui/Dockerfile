@@ -1,5 +1,5 @@
 ### STAGE 1: Build ###
-FROM iojs AS build
+FROM node:12.7-alpine AS build
 WORKDIR /usr/src/app
 COPY package.json ./
 RUN npm install
