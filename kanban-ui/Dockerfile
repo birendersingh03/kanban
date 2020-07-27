@@ -1,9 +1,5 @@
 ### STAGE 1: Build ###
-<<<<<<< HEAD
 FROM node:12.7-alpine AS build
-=======
-FROM node AS build
->>>>>>> 4bb849bb53abb1a456b0853da0974e4bd7e44640
 WORKDIR /usr/src/app
 COPY package.json ./
 RUN npm install
